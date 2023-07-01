@@ -15,10 +15,11 @@ const Header = () => {
           <SearchNormal1
             size={20}
             className="pointer-events-none absolute ml-4 "
+            color="#787486"
           />
           <input
             type="text"
-            className=" w-full rounded-md border-none bg-[#F5F5F5] py-3 pl-14 pr-3 text-sm outline-none ring-0 placeholder:text-grayColor  focus:border-none focus:ring-0"
+            className=" w-full rounded-md border-none bg-[#F5F5F5] py-3 pl-14 pr-3 text-sm outline-none ring-0 placeholder:text-[#787486]  focus:border-none focus:ring-0"
             placeholder="Search for anything..."
           />
         </div>
@@ -31,9 +32,9 @@ const Header = () => {
           <Notification color="#787486" />
         </div>
         <div className="flex items-center justify-center gap-2">
-          <div>
+          <div className="flex items-end flex-col">
             <p>Anima Agrawal</p>
-            <p>U.P, India</p>
+            <p className="text-[#787486]">U.P, India</p>
           </div>
           <div className=" flex items-center justify-center space-x-3 ">
             <img

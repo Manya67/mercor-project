@@ -57,22 +57,22 @@ const MainContainer = () => {
       <div className="flex items-center justify-between  w-full font-medium my-3">
         <div className="flex items-center justify-center gap-5">
           <button className="flex items-center justify-center space-x-2 rounded-md border  px-3 py-1 md:py-2 ">
-            <FilterSearch size={18} />
-            <span>Filter</span>
-            <ArrowDown2 size={18} />
+            <FilterSearch size={18} color="#787486" />
+            <span className="text-[#787486]">Filter</span>
+            <ArrowDown2 size={18} color="#787486" />
           </button>
 
           <button className=" flex items-center justify-center space-x-2 rounded-md border px-3 py-1 md:py-2 ">
-            <Calendar1 size={18} />
-            <span>Today</span>
-            <ArrowDown2 size={18} />
+            <Calendar1 size={18} color="#787486" />
+            <span className="text-[#787486]">Today</span>
+            <ArrowDown2 size={18} color="#787486" />
           </button>
         </div>
 
         <div className="flex  items-center justify-center gap-5">
           <button className="flex items-center justify-center space-x-2 rounded-md border px-3 py-2 ">
-            <Profile2User size={18} />
-            <span>Share</span>
+            <Profile2User size={18} color="#787486" />
+            <span className="text-[#787486]">Share</span>
           </button>
           <hr className=" h-7 border-[1px]  " />
           <div className=" flex h-10 w-10 justify-center rounded-md bg-[#5030E5] ">
