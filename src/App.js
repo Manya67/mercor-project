@@ -6,9 +6,9 @@ import Title from "./components/Title";
 const App = () => {
   return (
     <div>
-      <div className="flex h-[88px] border-b-[1px] border-[#DBDBDB]">
+      <div className="flex h-[88px] border-b-[1px] border-[#dbdbdb] sticky top-0 z-50">
         <Title />
-        {/* <Header /> */}
+        <Header />
       </div>
 
       <Body />

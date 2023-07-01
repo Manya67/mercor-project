@@ -1,11 +1,12 @@
-import { ArrowLeft2 } from "iconsax-react";
+import { ArrowLeft2, Colorfilter } from "iconsax-react";
 import React from "react";
 
 const Title = () => {
   return (
     <div className="w-[18%] bg-white border-r-[1px] border-[#DBDBDB] flex justify-around items-center">
       <div className="flex jusify-center items-center">
-        <span className="w-3 h-3 rounded-full bg-[#5030E5] mr-[9px]"></span>
+        <Colorfilter size="32" variant="Bulk" color="#5030E5" />
+
         <p className="text-[#0D062D] text-[20px] font-semibold">Project M.</p>
       </div>
       <div className="flex">
